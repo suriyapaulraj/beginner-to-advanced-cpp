@@ -1,0 +1,13 @@
+#include <iostream>
+using namespace std;
+
+int main ()
+{
+ int *p;
+    p=nullptr;
+ 
+ cout<<"the value of p is: "<<p<<endl;
+  cout<<"the size of p is: "<<sizeof p<<endl;
+   cout<<"the address of p is: "<<&p<<endl;
+   
+}
