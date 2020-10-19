@@ -1,0 +1,20 @@
+#include <iostream>
+#include <string>
+
+using namespace std;
+
+int main()
+{
+    int *p1 {nullptr};
+    double *p2{nullptr};
+    float *p3{nullptr};
+    long long *p4{nullptr};
+    string *p5 {nullptr};
+    
+    cout<<"the size of p1 is :"<<sizeof p1<<endl;
+    cout<<"the size of p2 is :"<<sizeof p2<<endl;
+    cout<<"the size of p3 is :"<<sizeof p3<<endl;
+    cout<<"the size of p4 is :"<<sizeof p4<<endl;
+    cout<<"the size of p5 is :"<<sizeof p5<<endl;   
+    
+}
